@@ -7,7 +7,7 @@ public with sharing class CTLocationController {
                 FROM Location__c 
                 ORDER BY Status_Update_Date__c DESC 
                 LIMIT 100];
-    }
+    } 
 
     //Fetch Location By Search Term
     public static List<Location__c> searchLocations(String searchTerm){
